@@ -58,7 +58,7 @@ spec:
           path: /
       containers:
       - name: container-escape
-        image: madhuakula/k8s-goat-system-monitor
+        image: docker.io/madhuakula/k8s-goat-system-monitor:latest
         resources:
           limits:
             memory: "50Mi"
